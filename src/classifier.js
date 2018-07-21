@@ -38,6 +38,7 @@ function classifier(input) {
             if(eligible){
                 output = {
                     ...output,
+                  noOfGroups: noOfGroups,
                     [group]: {
                         members: [
                             ...output[group].members,
